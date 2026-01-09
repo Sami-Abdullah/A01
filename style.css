@@ -51,12 +51,12 @@ nav {
   width: 139px;
 }
 
-ul a {
+.pages a {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
 
-ul {
+.pages {
   list-style: none;
   display: flex;
   gap: 32px;
@@ -122,7 +122,8 @@ ul {
 }
 
 .card-container {
-  margin: 50px 120px 120px 120px;
+  margin: 50px 120px 0 120px;
+  
 }
 
 .card-sec-title h3 {
@@ -185,4 +186,43 @@ ul {
   color: rgba(98, 115, 130, 1);
   font-size: 16px;
   line-height: 20px;
+}
+
+.brain-container{
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.brain-content {
+  text-align: left;
+}
+.brain-content h4{
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom:16px ;
+}
+.brain-content h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.brain-content p{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(98, 115, 130, 1);
+  width: 700px;
+  
+  margin-bottom: 40px;
+}
+.brain-content ul{
+  list-style: none;
+}
+.brain-container li{
+  color: rgba(0, 25, 49, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
