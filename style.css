@@ -16,7 +16,6 @@
   font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
-  border: none;
 
 }
 
@@ -27,11 +26,13 @@
 }
 
 .green {
+  border: none;
   background-color: rgba(70, 145, 101, 1);
 }
 
 .white {
   border: 1px solid rgba(255, 255, 255, 1);
+  background: none;
 }
 
 /* Main styles */
@@ -62,3 +63,54 @@ ul {
   align-items: center;
 }
 
+
+.hero-container {
+  background: url(./assets/hero-bg.png), rgba(0, 25, 49, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 120px 134px 120px;
+  text-align: center;
+}
+
+.ea-btn {
+  background-color: rgba(251, 251, 251, 1);
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 1000px;
+  margin-bottom: 16px;
+}
+
+.ea-btn:hover {
+  background-color: rgba(255, 255, 255, 0.815);
+}
+
+.fh-line {
+  font-weight: 700;
+  font-size: 72px;
+  color: rgba(251, 251, 251, 1);
+  margin-bottom: 16px;
+}
+
+.sh-line {
+  color: rgba(48, 184, 104, 1)
+}
+
+.sub-heading-sec {
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto 32px;
+
+
+}
+
+.sub-heading-sec p {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
