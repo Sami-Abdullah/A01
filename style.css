@@ -35,8 +35,22 @@
   background: none;
 }
 
+.text-content {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(98, 115, 130, 1);
+}
+
+.text-heading {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+
 /* Main styles */
 
+/* Navbar section */
 .nav-sec {
   background: rgba(251, 251, 251, 1);
 }
@@ -63,13 +77,49 @@ nav {
   align-items: center;
 }
 
+.btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
 
+/* Hero section */
 .hero-container {
   background: url(./assets/hero-bg.png), rgba(0, 25, 49, 0.8);
   background-position: center;
   background-repeat: no-repeat;
   padding: 70px 120px 134px 120px;
   text-align: center;
+}
+
+.oc,
+.mc,
+.ic {
+  background-color: rgba(70, 145, 101, 1);
+  border-radius: 10px;
+
+}
+
+.oc {
+  width: 16px;
+  height: 16px;
+  opacity: 0.2;
+  margin-right: 6px;
+  padding: 2px;
+}
+
+.mc {
+  width: 12px;
+  height: 12px;
+  opacity: 0.4;
+  padding: 3px;
+
+}
+
+.ic {
+  width: 6px;
+  height: 6px;
 }
 
 .ea-btn {
@@ -117,33 +167,26 @@ nav {
   gap: 16px;
 }
 
+/* Card section */
+.card-container {
+  margin: 50px 120px 0 120px;
+}
+
 .card-sec-title {
   text-align: center;
 }
 
-.card-container {
-  margin: 50px 120px 0 120px;
-  
-}
-
 .card-sec-title h3 {
-  color: rgba(0, 25, 49, 1);
-  font-size: 48px;
-  font-weight: 700;
   margin-bottom: 16px;
 }
 
 .card-sec-title p {
-  color: rgba(98, 115, 130, 1);
-  font-size: 16px;
-  font-weight: 400;
   margin-bottom: 44px;
 }
 
 .cards {
   display: flex;
   justify-content: center;
-  
   gap: 24px;
   padding: 24px;
   border-radius: 8px;
@@ -173,56 +216,128 @@ nav {
   align-items: center;
   text-align: center;
   gap: 16px;
-  border-radius :8px ;
-  box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
-.card h3{
+
+.card h3 {
   font-size: 24px;
   font-weight: 600px;
   color: rgba(0, 25, 49, 1);
-  margin-bottom:16px ;
-}
-.card p{
-  color: rgba(98, 115, 130, 1);
-  font-size: 16px;
-  line-height: 20px;
+  margin-bottom: 16px;
 }
 
-.brain-container{
-  padding: 120px;
+/* brain section */
+.brain-container {
+  margin: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
 }
+
 .brain-content {
   text-align: left;
 }
-.brain-content h4{
+
+.brain-content h4 {
   color: rgba(70, 145, 101, 1);
   font-size: 16px;
   font-weight: 500;
-  margin-bottom:16px ;
+  margin-bottom: 16px;
 }
-.brain-content h2{
+
+.brain-content h2 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 16px;
 }
-.brain-content p{
-  font-size:16px;
-  font-weight: 400;
-  color: rgba(98, 115, 130, 1);
+
+.brain-content p {
   width: 700px;
-  
   margin-bottom: 40px;
 }
-.brain-content ul{
+
+.brain-content ul {
   list-style: none;
 }
-.brain-container li{
+
+.brain-container li {
   color: rgba(0, 25, 49, 1);
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 16px;
+}
+
+/* ready section */
+
+.ready-container {
+  width: 1360px;
+  background: rgba(247, 246, 242, 1);
+  padding: 80px 40px;
+  margin: 0 120px 120px 120px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.ready-container h3,
+.btn {
+  margin-bottom: 16px;
+}
+
+.ready-container .btn {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.ready-container p {
+  margin-bottom: 24px;
+}
+
+/* footer section*/
+.footer-sec {
+  background: rgba(0, 25, 49, 1);
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-container {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-heading {
+  color: rgba(255, 255, 255, 1)
+}
+
+.icons img {
+  height: 20px;
+  width: 20px;
+}
+
+.icons {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.icons .i-bg {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.line {
+  margin-top: 80px;
+  background-color: rgba(229, 231, 235, 1);
+  opacity: 0.2;
+}
+
+.copyright {
+  color: rgba(251, 251, 251, 1);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
 }
